@@ -1,0 +1,260 @@
+{
+  "generated_at_utc": "2026-04-27T17:00:18.299108+00:00",
+  "total_cases": 12,
+  "passed_cases": 12,
+  "accuracy_percent": 100.0,
+  "results": [
+    {
+      "case_id": 1,
+      "input": "Received damaged stroller, want refund",
+      "expected_intent": "refund",
+      "actual_intent": "refund",
+      "pass": true,
+      "needs_human": false,
+      "confidence": 0.98,
+      "error": null,
+      "escalation_note": "Note: No human escalation needed.",
+      "raw_output": {
+        "intent": "refund",
+        "urgency": "high",
+        "confidence": 0.98,
+        "reasoning": "Customer explicitly reports a damaged stroller and requests a refund.",
+        "image_analysis": null,
+        "suggested_reply_en": "We’re very sorry to hear that the stroller arrived damaged. We’ll process your refund right away. Could you please share your order number and a photo of the damage so we can complete the request quickly?",
+        "suggested_reply_ar": "نعتذر لكِ بشدة على وصول العربة بحالة تالفة. سنقوم بمعالجة طلب الاسترداد فورًا. هلّا تفضلي بمشاركة رقم الطلب وصورة للضرر لتسريع العملية؟",
+        "needs_human": false
+      }
+    },
+    {
+      "case_id": 2,
+      "input": "Wrong size delivered",
+      "expected_intent": "exchange",
+      "actual_intent": "exchange",
+      "pass": true,
+      "needs_human": false,
+      "confidence": 0.96,
+      "error": null,
+      "escalation_note": "Note: No human escalation needed.",
+      "raw_output": {
+        "intent": "exchange",
+        "urgency": "normal",
+        "confidence": 0.96,
+        "reasoning": "Customer states the delivered product is the wrong size, indicating a need to exchange the item.",
+        "image_analysis": null,
+        "suggested_reply_en": "We’re sorry to hear you received the wrong size. Please let us know the order number and the correct size you need, and we’ll arrange an exchange for you right away.",
+        "suggested_reply_ar": "نعتذر لكِ على استلامك للمقاس غير المناسب. يرجى تزويدنا برقم الطلب والمقاس الصحيح الذي تحتاجينه، وسنقوم بترتيب عملية الاستبدال لكِ فوراً.",
+        "needs_human": false
+      }
+    },
+    {
+      "case_id": 3,
+      "input": "I want store credit instead",
+      "expected_intent": "store_credit",
+      "actual_intent": "store_credit",
+      "pass": true,
+      "needs_human": false,
+      "confidence": 0.98,
+      "error": null,
+      "escalation_note": "Note: No human escalation needed.",
+      "raw_output": {
+        "intent": "store_credit",
+        "urgency": "medium",
+        "confidence": 0.98,
+        "reasoning": "User explicitly requests store credit.",
+        "image_analysis": null,
+        "suggested_reply_en": "Sure, we can issue a store credit for you. Could you please provide your order number so we can process it?",
+        "suggested_reply_ar": "بالطبع، يمكننا إصدار رصيد للمتجر لك. هلّا تزوّدينا برقم طلبك لنتمكن من إتمام العملية؟",
+        "needs_human": false
+      }
+    },
+    {
+      "case_id": 4,
+      "input": "Terrible service!!!",
+      "expected_intent": "escalate",
+      "actual_intent": "escalate",
+      "pass": true,
+      "needs_human": true,
+      "confidence": 0.4,
+      "error": null,
+      "escalation_note": "Note: This case should be reviewed by a human support agent.",
+      "raw_output": {
+        "intent": "escalate",
+        "urgency": "high",
+        "confidence": 0.4,
+        "reasoning": "The message expresses dissatisfaction but lacks details about the issue, making it impossible to determine a specific intent such as refund or exchange.",
+        "image_analysis": null,
+        "suggested_reply_en": "We’re very sorry to hear about your experience. Could you please provide more details so we can assist you promptly?",
+        "suggested_reply_ar": "نعتذر بشدة عن تجربتك السلبية. هلّا تزوّدينا بمزيد من التفاصيل حتى نتمكن من مساعدتك بأسرع وقت؟",
+        "needs_human": true
+      }
+    },
+    {
+      "case_id": 5,
+      "input": "مرحبا المنتج تالف وأريد استرجاعه",
+      "expected_intent": "refund",
+      "actual_intent": "refund",
+      "pass": true,
+      "needs_human": false,
+      "confidence": 0.97,
+      "error": null,
+      "escalation_note": "Note: No human escalation needed.",
+      "raw_output": {
+        "intent": "refund",
+        "urgency": "medium",
+        "confidence": 0.97,
+        "reasoning": "User reports a defective product and explicitly requests a refund.",
+        "image_analysis": null,
+        "suggested_reply_en": "We’re sorry to hear that the product arrived damaged. I’ll process your refund right away. Could you please share your order number so we can complete the request?",
+        "suggested_reply_ar": "نعتذر لكِ على وصول المنتج تالف. سأتولى إجراءات استرجاع المبلغ فوراً. هل من الممكن تزويدنا برقم الطلب لتسريع العملية؟",
+        "needs_human": false
+      }
+    },
+    {
+      "case_id": 6,
+      "input": "Can I return after 30 days?",
+      "expected_intent": "escalate",
+      "actual_intent": "escalate",
+      "pass": true,
+      "needs_human": true,
+      "confidence": 0.96,
+      "error": null,
+      "escalation_note": "Note: This case should be reviewed by a human support agent.",
+      "raw_output": {
+        "intent": "escalate",
+        "urgency": "normal",
+        "confidence": 0.96,
+        "reasoning": "User asks if a return is possible after 30 days, which maps to a refund request.",
+        "image_analysis": null,
+        "suggested_reply_en": "Hi there! Our standard return window is 30 days from the delivery date. Unfortunately, returns after this period aren't accepted unless the product is defective or damaged. If you think your case qualifies, please let us know and we’ll be happy to review it for you.",
+        "suggested_reply_ar": "مرحبًا! فترة الإرجاع القياسية لدينا هي 30 يومًا من تاريخ الاستلام. للأسف لا يمكن إرجاع المنتجات بعد هذه المدة إلا إذا كان هناك عيب أو ضرر في المنتج. إذا كنتِ تعتقدين أن حالتك تستحق استثناءً، يرجى إبلاغنا وسنقوم بمراجعتها لكِ.",
+        "needs_human": true
+      }
+    },
+    {
+      "case_id": 7,
+      "input": "What is the weather in Dubai?",
+      "expected_intent": null,
+      "actual_intent": null,
+      "pass": true,
+      "needs_human": true,
+      "confidence": 0.0,
+      "error": null,
+      "escalation_note": "Note: This case should be reviewed by a human support agent.",
+      "raw_output": {
+        "intent": null,
+        "urgency": null,
+        "confidence": 0.0,
+        "reasoning": "The query is about weather, which is outside the support scope.",
+        "image_analysis": null,
+        "suggested_reply_en": "",
+        "suggested_reply_ar": "",
+        "needs_human": true
+      }
+    },
+    {
+      "case_id": 8,
+      "input": "123456",
+      "expected_intent": null,
+      "actual_intent": null,
+      "pass": true,
+      "needs_human": true,
+      "confidence": 0.9,
+      "error": null,
+      "escalation_note": "Note: This case should be reviewed by a human support agent.",
+      "raw_output": {
+        "intent": null,
+        "urgency": "medium",
+        "confidence": 0.9,
+        "reasoning": "User provided only an order number without a clear request; cannot determine specific intent within allowed categories.",
+        "image_analysis": null,
+        "suggested_reply_en": "Thank you for providing your order number. Could you please let us know how we can assist you with this order?",
+        "suggested_reply_ar": "شكرًا لتزويدنا برقم الطلب. هل يمكنك توضيح ما الذي تحتاجين مساعدتنا به بخصوص هذا الطلب؟",
+        "needs_human": true
+      }
+    },
+    {
+      "case_id": 9,
+      "input": "Baby rash after using product",
+      "expected_intent": "escalate",
+      "actual_intent": "escalate",
+      "pass": true,
+      "needs_human": true,
+      "confidence": 0.97,
+      "error": null,
+      "escalation_note": "Note: This case should be reviewed by a human support agent.",
+      "raw_output": {
+        "intent": "escalate",
+        "urgency": "high",
+        "confidence": 0.97,
+        "reasoning": "User reports a baby rash after using a product, which is a health/safety concern requiring immediate human intervention.",
+        "image_analysis": null,
+        "suggested_reply_en": "We’re very sorry to hear about your baby’s rash. Your safety is our top priority. I’m escalating this to our specialist team right away so they can assist you promptly. Please hold on while we connect you with a representative.",
+        "suggested_reply_ar": "نعتذر بشدة لسماع أن طفلك تعرض للطفح الجلدي. سلامة طفلك هي أولويتنا القصوى. سأقوم بتحويل طلبك إلى فريق المتخصصين فوراً لتقديم المساعدة اللازمة. يرجى الانتظار قليلاً حتى يتم ربطك بأحد ممثلينا.",
+        "needs_human": true
+      }
+    },
+    {
+      "case_id": 10,
+      "input": "Late delivery very upset",
+      "expected_intent": "escalate",
+      "actual_intent": "escalate",
+      "pass": true,
+      "needs_human": true,
+      "confidence": 0.58,
+      "error": null,
+      "escalation_note": "Note: This case should be reviewed by a human support agent.",
+      "raw_output": {
+        "intent": "escalate",
+        "urgency": "high",
+        "confidence": 0.58,
+        "reasoning": "The message expresses dissatisfaction due to late delivery, but does not specify a desired action (refund, exchange, etc.), making the intent unclear.",
+        "image_analysis": null,
+        "suggested_reply_en": "We’re very sorry to hear that your delivery was delayed and understand how frustrating this can be. Let us look into this for you right away. Could you please share your order number so we can investigate and find the best solution?",
+        "suggested_reply_ar": "نعتذر لكِ بشدة عن تأخر توصيل طلبكِ ونتفهم مدى الإحباط الذي شعرتِ به. دعينا نتحقق من الأمر فورًا. هل يمكنكِ تزويدنا برقم الطلب حتى نتمكن من متابعة الموضوع وإيجاد الحل الأنسب لكِ؟",
+        "needs_human": true
+      }
+    },
+    {
+      "case_id": 11,
+      "input": "Product not working",
+      "expected_intent": "refund",
+      "actual_intent": "refund",
+      "pass": true,
+      "needs_human": true,
+      "confidence": 0.6,
+      "error": null,
+      "escalation_note": "Note: This case should be reviewed by a human support agent.",
+      "raw_output": {
+        "intent": "refund",
+        "urgency": "high",
+        "confidence": 0.6,
+        "reasoning": "The message only states 'Product not working' without details about the issue, order, or desired resolution, making it unclear whether the customer wants a refund, exchange, or other assistance.",
+        "image_analysis": null,
+        "suggested_reply_en": "We’re sorry to hear that the product isn’t working. Could you please share your order number and describe the problem in more detail? This will help us find the best solution for you.",
+        "suggested_reply_ar": "نأسف لأن المنتج لا يعمل كما توقعت. هلّا تكرمتِ وتزوّدينا برقم الطلب وتفاصيل المشكلة؟ ذلك سيساعدنا على تقديم الحل الأنسب لكِ.",
+        "needs_human": true
+      }
+    },
+    {
+      "case_id": 12,
+      "input": "أريد استبدال المنتج",
+      "expected_intent": "exchange",
+      "actual_intent": "exchange",
+      "pass": true,
+      "needs_human": false,
+      "confidence": 0.97,
+      "error": null,
+      "escalation_note": "Note: No human escalation needed.",
+      "raw_output": {
+        "intent": "exchange",
+        "urgency": "normal",
+        "confidence": 0.97,
+        "reasoning": "User explicitly requests to exchange a product.",
+        "image_analysis": null,
+        "suggested_reply_en": "Sure, I'd be happy to help you with an exchange. Could you please provide your order number and let me know which item you'd like to exchange and the reason?",
+        "suggested_reply_ar": "طبعًا، يسعدني مساعدتك في استبدال المنتج. هلّا تكرمتِ تزوّديني برقم الطلب وتحديد المنتج اللي حابة تستبدليه وسبب الاستبدال؟",
+        "needs_human": false
+      }
+    }
+  ]
+}

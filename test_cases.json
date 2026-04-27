@@ -1,0 +1,14 @@
+[
+  {"input": "Received damaged stroller, want refund", "expected": "refund"},
+  {"input": "Wrong size delivered", "expected": "exchange"},
+  {"input": "I want store credit instead", "expected": "store_credit"},
+  {"input": "Terrible service!!!", "expected": "escalate"},
+  {"input": "مرحبا المنتج تالف وأريد استرجاعه", "expected": "refund"},
+  {"input": "Can I return after 30 days?", "expected": "escalate"},
+  {"input": "What is the weather in Dubai?", "expected": null},
+  {"input": "123456", "expected": null},
+  {"input": "Baby rash after using product", "expected": "escalate"},
+  {"input": "Late delivery very upset", "expected": "escalate"},
+  {"input": "Product not working", "expected": "refund"},
+  {"input": "أريد استبدال المنتج", "expected": "exchange"}
+]
